@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fda925a7e28e2b5ce441da851b984d17",
+    "content-hash": "530aa5499bd23322ce97da7e72fafc6e",
     "packages": [
         {
             "name": "openapi/openapi-sdk",
