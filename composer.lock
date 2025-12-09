@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "edfa388bdc1cf3d00a5f73c9d64d808e",
+    "packages": [
+        {
+            "name": "openapi/openapi-sdk",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openapi/openapi-php-sdk.git",
+                "reference": "099541b390b71a4ca621dc284f7492aa8c6ab2ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openapi/openapi-php-sdk/zipball/099541b390b71a4ca621dc284f7492aa8c6ab2ac",
+                "reference": "099541b390b71a4ca621dc284f7492aa8c6ab2ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenApi\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Altravia",
+                    "email": "info@altravia.com"
+                }
+            ],
+            "description": "OpenApi PHP Libraries (https://openapi.it)",
+            "support": {
+                "issues": "https://github.com/openapi/openapi-php-sdk/issues",
+                "source": "https://github.com/openapi/openapi-php-sdk/tree/1.1.0"
+            },
+            "time": "2022-01-10T08:18:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

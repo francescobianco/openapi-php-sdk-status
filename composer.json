@@ -1,0 +1,21 @@
+{
+  "name": "openapi/openapi-sdk-status",
+  "description": "Openapi SDK Status",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Altravia",
+      "email": "info@altravia.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2.0",
+    "openapi/openapi-sdk": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Openapi\\Status\\": "src"
+    }
+  }
+}
