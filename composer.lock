@@ -4,24 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "530aa5499bd23322ce97da7e72fafc6e",
+    "content-hash": "c55881ca8c056224db2c55702919c362",
     "packages": [
         {
             "name": "openapi/openapi-sdk",
-            "version": "1.1.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openapi/openapi-php-sdk.git",
-                "reference": "099541b390b71a4ca621dc284f7492aa8c6ab2ac"
+                "reference": "488d01d3651fe6860945c2ef5e38c212ac52b64e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openapi/openapi-php-sdk/zipball/099541b390b71a4ca621dc284f7492aa8c6ab2ac",
-                "reference": "099541b390b71a4ca621dc284f7492aa8c6ab2ac",
+                "url": "https://api.github.com/repos/openapi/openapi-php-sdk/zipball/488d01d3651fe6860945c2ef5e38c212ac52b64e",
+                "reference": "488d01d3651fe6860945c2ef5e38c212ac52b64e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0"
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "symfony/dotenv": "^5.3"
             },
             "type": "library",
             "autoload": {
@@ -30,18 +36,21 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Altravia",
                     "email": "info@altravia.com"
                 }
             ],
-            "description": "OpenApi PHP Libraries (https://openapi.it)",
+            "description": "Minimal and agnostic PHP SDK for Openapi® (https://openapi.com)",
             "support": {
                 "issues": "https://github.com/openapi/openapi-php-sdk/issues",
-                "source": "https://github.com/openapi/openapi-php-sdk/tree/1.1.0"
+                "source": "https://github.com/openapi/openapi-php-sdk/tree/1.2.1"
             },
-            "time": "2022-01-10T08:18:02+00:00"
+            "time": "2025-12-09T17:33:27+00:00"
         }
     ],
     "packages-dev": [],
